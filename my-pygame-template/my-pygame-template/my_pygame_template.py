@@ -11,13 +11,14 @@ SCREEN_WIDTH = 600
 SCREEN_HEIGHT = 600
 
 #initilize display
-screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-pygame.display.set_caption("My Pygame Template")
+screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))  #moved this to game class last time
+pygame.display.set_caption("My Pygame Template")  #moved this to game class last time
 
 #initialize game variables
-is_game_over = False
+is_game_over = False  #moved this to game class last time, in game loop method
 
 #game loop
+#moved this to game class last time, in game loop method
 while not is_game_over:
 
     #event handler
